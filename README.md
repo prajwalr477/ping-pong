@@ -67,7 +67,7 @@ python main.py
 ## Project Structure
 
 Ensure this layout so imports resolve correctly. 
-
+```
 pygame-pingpong/
 ├── main.py
 ├── requirements.txt
@@ -76,3 +76,4 @@ pygame-pingpong/
 │ ├── paddle.py
 │ └── ball.py
 └── README.md
+```
