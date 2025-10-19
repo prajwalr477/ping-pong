@@ -35,10 +35,11 @@ See questions.md for the vibecoding prompts, analyses, and resolutions completed
 
 ## Setup
 
-Install dependencies and run the game from the project root. 
+Install dependencies and run the game from the project root.
+```
 pip install -r requirements.txt
 python main.py
-
+```
 
 ---
 
@@ -72,8 +73,13 @@ pygame-pingpong/
 ├── main.py
 ├── requirements.txt
 ├── game/
-│ ├── game_engine.py
-│ ├── paddle.py
-│ └── ball.py
+│   ├── game_engine.py
+│   ├── paddle.py
+│   └── ball.py
+├── sounds/
+│   ├── paddle_hit.wav
+│   ├── wall_bounce.wav
+│   └── score.wav
 └── README.md
+
 ```
